@@ -1,0 +1,11 @@
+[package]
+name = "mandelbrot-lockfree2"
+version = "0.2.0"
+authors = ["Jim Blandy <jimb@red-bean.com>"]
+edition = "2024"
+
+[dependencies]
+num = "0.4"
+num-bigint = "0.4.4"
+image = "0.24"
+crossbeam = "0.8"
